@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: fonteandroid;
+    src: url('fontes/idroid.otf') format('opentype');
+}
+
+body {
+    background-color: lightgreen;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+#principal /*header principal*/{
+    background-image: linear-gradient(to bottom, mediumseagreen, rgb(38, 156, 38));
+    padding: 20px 10px 5px 10px;
+    margin: 0px;
+}
+
+main {
+    background-color: white;
+    width: 850px;
+    margin: 0px auto 20px auto;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+a {
+    color: darkgreen;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: mediumseagreen;
+    text-decoration: underline;
+}
+
+main > .video {
+    background-color: rgb(9, 87, 9);
+    padding: 10px;
+    margin: 0px;
+}
+
+main > .article1 > h1 {
+    color: rgb(16, 128, 16);
+    font-family: fonteandroid;
+    font-weight: normal;
+}
+
+main > .article1 > h2 {
+    background-image: linear-gradient(to right, rgba(60, 179, 114, 0.336), rgba(144, 238, 144, 0.411), white);
+    color: rgb(16, 128, 16);
+    font-family: fonteandroid;
+    font-weight: normal;
+}
+
+#principal > h1 /*header principal*/{
+    color: whitesmoke;
+    text-align: center;
+    margin: 0px;
+}
+
+#principal > p /*header principal*/{
+    color: whitesmoke;
+    text-align: center;
+}
+
+#principal > nav > a /*header principal*/{
+    color: whitesmoke;
+    text-decoration: none;
+    padding-right: 20px;
+}
+
+#principal > nav > a:hover /*header principal*/{
+    color: mediumspringgreen;
+}
+
+main > .article1 {
+    background-color: white;
+    padding: 10px 20px;
+    margin: 0px;
+}
+
+main > .queraprendermais {
+    background-color: lightgray;
+    width: 700px;
+    padding: 0px;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+main > .queraprendermais > header {
+    background-color: lightgreen;
+    padding: 5px 10px;
+    margin: 0px;
+}
+
+main > .queraprendermais > header > h1 {
+    font-size: 1.5em;
+    margin: 0px;
+}
+
+main > .queraprendermais > .article2 {
+    padding: 5px 10px;
+    margin: 0px;
+}
+
+footer {
+    background-color: darkgreen;
+    margin: 0px;
+}
+
+footer > p {
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin: 0px;
+}

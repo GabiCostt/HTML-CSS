@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem flexivel</title>
+</head>
+<body>
+    <h1>Imagens Flexiveis</h1>
+    <p>Aqui você vai ver imagens que mudam seu tamanho de acordo com o tamanho da janela do seu navegador.</p>
+
+    <picture>
+        <source media="(max-width: 770px)" srcset="imagens/paisagem-p.png" type="image/png">
+        <source media="(max-width: 1220px)" srcset="imagens/paisagem-m.png" type="image/png">
+        <img src="imagens/paisagem-g.png" alt="Imagem de uma mulher em um paisagem imensa.">
+    </picture>
+</body>
+</html>
